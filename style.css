@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#000;
+    overflow:hidden;
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#canvas{
+    position:fixed;
+    inset:0;
+}
+
+#boomBtn{
+    position:absolute;
+    z-index:10;
+
+    padding:18px 45px;
+
+    border:none;
+
+    border-radius:50px;
+
+    background:#ff2f6d;
+
+    color:white;
+
+    font-size:20px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+    box-shadow:0 0 30px #ff2f6d;
+}
+
+#boomBtn:hover{
+    transform:scale(1.08);
+}
