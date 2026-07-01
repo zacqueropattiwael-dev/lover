@@ -84,11 +84,8 @@ btn.onclick=()=>{
 
     btn.style.display="none";
 
-    const rect=btn.getBoundingClientRect();
-
-    const x=rect.left+rect.width/2;
-
-    const y=rect.top+rect.height/2;
+    const x = window.innerWidth / 2;
+const y = window.innerHeight / 2;
 
     for(let i=0;i<150;i++){
 
